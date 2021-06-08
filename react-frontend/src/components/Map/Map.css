@@ -1,0 +1,15 @@
+.marker-btn {
+  background: white;
+  border: white;
+  cursor: pointer;
+}
+
+.marker-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.body {
+  max-width: 50%;
+  width: 80;
+}

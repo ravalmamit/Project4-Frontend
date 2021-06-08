@@ -1,0 +1,429 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.38078309999999,
+          "lng": -71.10163109999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3823099802915,
+            "lng": -71.1000971697085
+          },
+          "southwest": {
+            "lat": 42.3796120197085,
+            "lng": -71.10279513029151
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Market Basket",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108165955110408038160\">Neal Robert</a>"
+          ],
+          "photo_reference": "ATtYBwJv1rbSd9gC4A6oEe-Icxge-mUwRt6lqGtF5XovgsRl5Mgo5EdWt31-_MnlQSZ2-ywgluTm8rSVFXEeArUVDxiFkmgDnDq1M0Io8DlgGfYQkwAj8rtUGGFEjtmhH7XjF7u8UYmwgZtjnvCoeddWGHku3wMmwQgbjwxDC2SxnaeVcunG",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ296XtDV344kRXTFzOH4n2Vg",
+      "plus_code": {
+        "compound_code": "9VJX+88 Somerville, MA, USA",
+        "global_code": "87JC9VJX+88"
+      },
+      "rating": 4.4,
+      "reference": "ChIJ296XtDV344kRXTFzOH4n2Vg",
+      "scope": "GOOGLE",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 3642,
+      "vicinity": "400 Somerville Avenue, Somerville"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.37602030000001,
+          "lng": -71.10293419999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3772248302915,
+            "lng": -71.10166261970849
+          },
+          "southwest": {
+            "lat": 42.3745268697085,
+            "lng": -71.10436058029151
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Whole Foods Market",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110789229607156146997\">Harry Gordon</a>"
+          ],
+          "photo_reference": "ATtYBwINDnf7beWJ-29-dt7jcJHHdOOL0yF2ukO0nviE64BiKByEd3qMMJfbzGJxpqso-NiZLKSPPJvSED8P2qfO1UOFaJEowVGoxirphu6V5mF4agyZ1_ojWnaOJAueHyVJocc0KnvdH8laCsRra5r1Uznljoz_-OsyqwuVQxuWP0scbRMn",
+          "width": 3984
+        }
+      ],
+      "place_id": "ChIJj7oq2Et344kRnb1BcIMee-Y",
+      "plus_code": {
+        "compound_code": "9VGW+CR Somerville, MA, USA",
+        "global_code": "87JC9VGW+CR"
+      },
+      "price_level": 3,
+      "rating": 4.2,
+      "reference": "ChIJj7oq2Et344kRnb1BcIMee-Y",
+      "scope": "GOOGLE",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "health",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 537,
+      "vicinity": "45 Beacon Street, Somerville"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.3680574,
+          "lng": -71.1023771
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3693060802915,
+            "lng": -71.10093326970849
+          },
+          "southwest": {
+            "lat": 42.3666081197085,
+            "lng": -71.10363123029151
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Whole Foods Market",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115832882436993992452\">Sheraz Choudhary</a>"
+          ],
+          "photo_reference": "ATtYBwKwz7Hvt1zDHIAUzZqhhhJjM4s_nXpSBt-_MC5L21ayEyuSJg_POo-8_RSgJUO0Oay7ZImcD9jI81Ppr654niGFzN3ovI80IXaElM-tq5IMXoMVkIeBGIcH3C9BoijI06ZNfUxpv7fynMxhKDsOHsdBEaRZQtUzdS-fyX6lubxNFg8F",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJmzrVPVJ344kRAySZVMsT_dQ",
+      "plus_code": {
+        "compound_code": "9V9X+62 Cambridge, MA, USA",
+        "global_code": "87JC9V9X+62"
+      },
+      "price_level": 3,
+      "rating": 4.1,
+      "reference": "ChIJmzrVPVJ344kRAySZVMsT_dQ",
+      "scope": "GOOGLE",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "health",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 615,
+      "vicinity": "115 Prospect Street, Cambridge"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.3739525,
+          "lng": -71.11307950000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3753520302915,
+            "lng": -71.11169271970851
+          },
+          "southwest": {
+            "lat": 42.3726540697085,
+            "lng": -71.11439068029152
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Broadway Marketplace",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 675,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/113784735889785774818\">Broadway Marketplace</a>"
+          ],
+          "photo_reference": "ATtYBwL5IOb4tWIc_iOPdQ1IcPQPyXRDAICU8XbEqxmkjK2JCF0qoHgaVUozXem4P4z4sn9_NMQOgyRK4iLRDXqqCIHWSQXpytD5zXOSQd3hWmukQIV_PLUe13Dc0MJ2YdG-A4moYb2PHYYw79VAO7N_W8SFEBCVI4FIqECQgCWZogwp9KqL",
+          "width": 480
+        }
+      ],
+      "place_id": "ChIJE0ZRWkR344kRBh6zmaJSyRk",
+      "plus_code": {
+        "compound_code": "9VFP+HQ Cambridge, MA, USA",
+        "global_code": "87JC9VFP+HQ"
+      },
+      "rating": 4,
+      "reference": "ChIJE0ZRWkR344kRBh6zmaJSyRk",
+      "scope": "GOOGLE",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "liquor_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 365,
+      "vicinity": "468 Broadway, Cambridge"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.3801076,
+          "lng": -71.0962526
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3815200302915,
+            "lng": -71.09479391970849
+          },
+          "southwest": {
+            "lat": 42.3788220697085,
+            "lng": -71.0974918802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Reliable Market",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 2585,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103422762913697305399\">Kathy Krysiak</a>"
+          ],
+          "photo_reference": "ATtYBwJGvYyMCMRf1fetCuzK7WXjTWYUdmSJVNMCzJ9jlC3OdTYRLjUqMtQgIdq08eo-fJo_GqPL0S56sl3gQbj3p3bMCswThW8Owrk9twg9uVpQY3OAhSXj4IRnUOqlHfqQoIFuZnOt8mcYlbftbkXpUCjEeOfwDUj0QiQ2hcR23nw3XN0c",
+          "width": 3403
+        }
+      ],
+      "place_id": "ChIJF70I4cpw44kRgV_Ab8VBPws",
+      "plus_code": {
+        "compound_code": "9WJ3+2F Somerville, MA, USA",
+        "global_code": "87JC9WJ3+2F"
+      },
+      "rating": 4.5,
+      "reference": "ChIJF70I4cpw44kRgV_Ab8VBPws",
+      "scope": "GOOGLE",
+      "types": [
+        "supermarket",
+        "grocery_or_supermarket",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 456,
+      "vicinity": "45 Union Square, Somerville"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.36100709999999,
+          "lng": -71.1139362
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3624426302915,
+            "lng": -71.11280311970849
+          },
+          "southwest": {
+            "lat": 42.3597446697085,
+            "lng": -71.11550108029149
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Whole Foods Market",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106859502598729032090\">Theodor Weinberg</a>"
+          ],
+          "photo_reference": "ATtYBwIDwTKSrB6Js4yzM-w_hTKavJrWo9pw1YhG51aU0O16EQ0k_iS0dHnS03S8tNq001mwN_LG2snesQZRKmx_XDVt-PduAFZSw5aWgaEZLaiBW6uM33jDAoqvfaCObOwZ04zz6_1_bDiQYphmJmk85DTSZK_2PWB3BrEt3nK3GK0yBLIb",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJieJNoVh344kRnMrYGkna3mo",
+      "plus_code": {
+        "compound_code": "9V6P+CC Cambridge, MA, USA",
+        "global_code": "87JC9V6P+CC"
+      },
+      "price_level": 3,
+      "rating": 4.3,
+      "reference": "ChIJieJNoVh344kRnMrYGkna3mo",
+      "scope": "GOOGLE",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "health",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 818,
+      "vicinity": "340 River Street, Cambridge"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.3699018,
+          "lng": -71.09596689999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3712192802915,
+            "lng": -71.09468011970849
+          },
+          "southwest": {
+            "lat": 42.3685213197085,
+            "lng": -71.09737808029149
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Hampshire Market",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111825717536992824776\">Mari Ganesh Kumar M</a>"
+          ],
+          "photo_reference": "ATtYBwLkKjj7TouQNWlmb_84O9qBN1-rkUTsvtjTKWMtqs07cyESzGrnPuGOlgmL3gtOoqCarMQtvlj4YmxyH4cmqjwokfdQ0VA39NVN2qVgJOKTBlKySr1bF89Pwf3ogxe_yjjfXCh2FD1JhK_EzDyI_1sIbvMytHWbqOcXpX9UoyJSpWN1",
+          "width": 4000
+        }
+      ],
+      "place_id": "ChIJuVC5w7Jw44kRiyWu5EDUQ64",
+      "plus_code": {
+        "compound_code": "9W93+XJ Cambridge, MA, USA",
+        "global_code": "87JC9W93+XJ"
+      },
+      "rating": 3.9,
+      "reference": "ChIJuVC5w7Jw44kRiyWu5EDUQ64",
+      "scope": "GOOGLE",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 15,
+      "vicinity": "117 Hampshire Street, Cambridge"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.3799736,
+          "lng": -71.09692819999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 42.3813225802915,
+            "lng": -71.09557921970848
+          },
+          "southwest": {
+            "lat": 42.3786246197085,
+            "lng": -71.09827718029149
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "name": "Union Market",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4608,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111035775154030133616\">Mavi Peru</a>"
+          ],
+          "photo_reference": "ATtYBwKbwiWRLx57fWd4_9OwkG88yYCUkEA4UgCPnErmcYWT54c8aj-CWe200MD7kHlDCvJB3U_xkAepxVKeKoavTAASwRfPkefTkDWfesXwx_tzSuPwuW_Bocz0_KqHBYUeanyr1XUR9wPLf_bIprJwi9clp5kHoONjZmsEe9tl7v6WUdLs",
+          "width": 3456
+        }
+      ],
+      "place_id": "ChIJy7S0wCpx44kRI8OWmsOMt2A",
+      "plus_code": {
+        "compound_code": "9WH3+X6 Somerville, MA, USA",
+        "global_code": "87JC9WH3+X6"
+      },
+      "rating": 5,
+      "reference": "ChIJy7S0wCpx44kRI8OWmsOMt2A",
+      "scope": "GOOGLE",
+      "types": [
+        "supermarket",
+        "grocery_or_supermarket",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 1,
+      "vicinity": "29 Union Square, Somerville"
+    }
+  ],
+  "status": "OK"
+}
