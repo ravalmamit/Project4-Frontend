@@ -20,6 +20,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Background from "../../images/condo2.jpeg";
 import Map from "./../Map/Map";
 import Header from "./../Header/Header";
+import Rating from "./../Rating/Rating";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -40,7 +41,7 @@ function Agent({ register }) {
   const [userinfo, setUserinfo] = useState([]);
   const [usernotes, setUsernotes] = useState("");
   let history = useHistory();
-
+  //   const [rating, setRating] = useState(0);
   function getDetails() {
     axios.get(`http://localhost:4000/users/register`).then((response) => {
       setUserinfo(response.data);
@@ -51,15 +52,25 @@ function Agent({ register }) {
     getDetails();
   }, []);
 
+  /////RATING FUNCTION//////////////
+  const [rating, setRating] = useState(0);
+  function ratingHandler() {
+    setRating(rating);
+  }
+
+  //////////////RATING FUNCTION////////
+
   function agentNotes(id) {
     // event.preventDefault();
     // console.log(event.target.value);
+
     console.log(usernotes);
 
     axios({
       method: "PUT",
       data: {
         notes: usernotes,
+        rating: rating,
       },
       //   withCredentials: true,
       url: `http://localhost:4000/users/register/update/${id}`,
@@ -82,7 +93,7 @@ function Agent({ register }) {
         <Grid container>
           {userinfo.map((user) => (
             <Grid item sm={6} md={3} xs={3} lg={3}>
-              <Card style={{ height: "200px", width: "200px" }} key={user.id}>
+              <Card style={{ height: "280px", width: "200px" }} key={user.id}>
                 <CardActionArea>
                   <CardContent>
                     <Typography style={{ fontSize: 10 }}>
@@ -95,7 +106,16 @@ function Agent({ register }) {
                       Address:{user.address}
                       <br />
                       Notes:{user.notes}
+                      <br />
+                      Rating:{user.rating}
                     </Typography>
+                    <Rating
+                      id={user._id}
+                      action={(newRating) => {
+                        setRating(newRating);
+                      }}
+                    />
+
                     <TextField
                       variant="outlined"
                       margin="normal"
@@ -114,9 +134,11 @@ function Agent({ register }) {
                       variant="contained"
                       color="primary"
                       className={classes.submit}
-                      onClick={() => agentNotes(user._id)}
+                      onClick={() => {
+                        agentNotes(user._id);
+                      }}
                     >
-                      Add Notes
+                      Add Notes & Ratings
                     </Button>
                   </CardContent>
                 </CardActionArea>
