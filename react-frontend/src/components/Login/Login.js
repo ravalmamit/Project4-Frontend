@@ -17,7 +17,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 //////// MATERIAL UI ////////////////
-import Background from "../../images/condo2.jpeg";
+import Background from "../../images/condo1.jpeg";
 import Header from "../Header/Header";
 
 function Login(props) {

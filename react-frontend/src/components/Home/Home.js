@@ -14,7 +14,7 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-import Background from "../../images/condo2.jpeg";
+import Background from "../../images/condo1.jpeg";
 import Map from "./../Map/Map";
 import Header from "./../Header/Header";
 
@@ -38,6 +38,14 @@ function Home(props) {
   return (
     <div>
       <Header />
+      <Typography
+        align="center"
+        color="primary"
+        variant="h5"
+        fontFamily="Helvetica"
+      >
+        205 RICHDALE AVENUE, UNIT A-20 CAMBRIDGE, MA 02140 PRICE: $699,000
+      </Typography>
       <Container className={classes.root}>
         <Grid container spacing={3}>
           <Grid item sm={12} md={6} xs={3} lg={6}>
