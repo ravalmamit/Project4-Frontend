@@ -3,6 +3,10 @@
 
 .images {
   width: 70%;
-  margin: 10rem auto;
-  height: 570px;
+  margin: 5rem auto;
+  height: 570px auto;
+}
+
+.photos {
+  background-color: lightblue;
 }
