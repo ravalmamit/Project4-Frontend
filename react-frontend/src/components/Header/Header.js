@@ -8,6 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Link } from "react-router-dom";
 import { MenuItem } from "@material-ui/core";
+import HomeIcon from "@material-ui/icons/Home";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,7 +47,7 @@ export default function ButtonAppBar() {
           >
             <MenuIcon />
           </IconButton> */}
-
+          <HomeIcon />
           <Typography
             component={Link}
             style={{ textDecoration: "none" }}

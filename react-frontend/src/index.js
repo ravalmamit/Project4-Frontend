@@ -17,7 +17,7 @@ import MapSM from "./components/Map/MapSM";
 import MapN from "./components/Map/MapN";
 import Visit from "./components/Visit/Visit";
 import Details from "./components/Details/Details";
-
+import Contact from "./components/Contact/Contact";
 ReactDOM.render(
   <Router>
     <App />
@@ -35,6 +35,7 @@ ReactDOM.render(
       <Route exact path="/nightlife" component={MapN} />
       <Route exact path="/visit" component={Visit} />
       <Route exact path="/details" component={Details} />
+      <Route exact path="/contact" component={Contact} />
     </Switch>
   </Router>,
   document.getElementById("root")
