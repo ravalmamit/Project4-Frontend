@@ -38,20 +38,27 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="menu"
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
 
-          <Typography variant="h6" className={classes.title}>
+          <Typography
+            component={Link}
+            style={{ textDecoration: "none" }}
+            to="/home"
+            variant="h6"
+            color="inherit"
+            className={classes.title}
+          >
             Virtual Open House
           </Typography>
-          <Button component={Link} to="/register" color="inherit">
-            Sign Up
+          <Button component={Link} to="/visit" color="inherit">
+            Visit Us
           </Button>
         </Toolbar>
       </AppBar>
