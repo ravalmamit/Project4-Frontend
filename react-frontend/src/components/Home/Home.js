@@ -25,9 +25,9 @@ const useStyles = makeStyles((theme) => ({
 
     // flexDirection: "column",
     width: "100vw",
-    height: "100vh",
+    height: "85vh",
     backgroundColor: theme.palette.grey[200],
-    paddingTop: theme.spacing(8),
+    paddingTop: theme.spacing(5),
     paddingLeft: theme.spacing(20),
     padding: theme.spacing(2),
   },
@@ -98,6 +98,27 @@ function Home(props) {
               </CardActionArea>
             </Card>
           </Grid>
+          <Typography
+            component={Link}
+            to="/visit"
+            align="justify"
+            color="primary"
+            variant="h4"
+            fontFamily="Helvetica"
+          >
+            You're invited!
+          </Typography>
+          <br />
+          <Typography
+            component={Link}
+            to="/visit"
+            align="justify"
+            color="primary"
+            variant="h4"
+            fontFamily="Helvetica"
+          >
+            Join us for our Virtual Open House on June 14 at 3 pm EST
+          </Typography>
         </Grid>
       </Container>
     </div>

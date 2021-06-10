@@ -15,6 +15,7 @@ import MapT from "./components/Map/MapT";
 import MapS from "./components/Map/MapS";
 import MapSM from "./components/Map/MapSM";
 import MapN from "./components/Map/MapN";
+import Visit from "./components/Visit/Visit";
 
 ReactDOM.render(
   <Router>
@@ -31,6 +32,7 @@ ReactDOM.render(
       <Route exact path="/school" component={MapS} />
       <Route exact path="/market" component={MapSM} />
       <Route exact path="/nightlife" component={MapN} />
+      <Route exact path="/visit" component={Visit} />
     </Switch>
   </Router>,
   document.getElementById("root")
