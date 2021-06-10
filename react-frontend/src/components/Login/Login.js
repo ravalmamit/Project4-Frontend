@@ -18,7 +18,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 //////// MATERIAL UI ////////////////
 import Background from "../../images/condo1.jpeg";
-import Header from "../Header/Header";
+import HeaderLogin from "../Header/HeaderLogin";
 
 function Login(props) {
   const [loginUsername, setLoginUsername] = useState("");
@@ -121,7 +121,7 @@ function Login(props) {
 
   return (
     <div>
-      <Header />
+      <HeaderLogin />
       <Grid container component="main" className={classes.root}>
         <CssBaseline />
         <Grid item xs={false} sm={4} md={7} className={classes.image} />
