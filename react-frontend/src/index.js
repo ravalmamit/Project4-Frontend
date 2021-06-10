@@ -11,6 +11,10 @@ import Video from "./components/Video/Video";
 import Photos from "./components/Photos/Photos";
 import Agent from "./components/Agent/Agent";
 import Login from "./components/Login/Login";
+import MapT from "./components/Map/MapT";
+import MapS from "./components/Map/MapS";
+import MapSM from "./components/Map/MapSM";
+import MapN from "./components/Map/MapN";
 
 ReactDOM.render(
   <Router>
@@ -23,6 +27,10 @@ ReactDOM.render(
       <Route exact path="/video" component={Video} />
       <Route exact path="/photos" component={Photos} />
       <Route exact path="/agent" component={Agent} />
+      <Route exact path="/transport" component={MapT} />
+      <Route exact path="/school" component={MapS} />
+      <Route exact path="/market" component={MapSM} />
+      <Route exact path="/nightlife" component={MapN} />
     </Switch>
   </Router>,
   document.getElementById("root")

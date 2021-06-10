@@ -13,7 +13,7 @@ import {
   CardMedia,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
+import { Link } from "react-router-dom";
 import Background from "../../images/condo1.jpeg";
 import Map from "./../Map/Map";
 import Header from "./../Header/Header";
@@ -60,10 +60,34 @@ function Home(props) {
                 />
               </CardActionArea>
               <CardActions>
-                <Button style={{ background: "red" }}>Transportation</Button>
-                <Button style={{ background: "orange" }}>Schools</Button>
-                <Button style={{ background: "green" }}>Super Markets</Button>
-                <Button style={{ background: "gray" }}>Night Life</Button>
+                <Button
+                  component={Link}
+                  to="/transport"
+                  style={{ background: "red" }}
+                >
+                  Transportation
+                </Button>
+                <Button
+                  component={Link}
+                  to="/school"
+                  style={{ background: "orange" }}
+                >
+                  Schools
+                </Button>
+                <Button
+                  component={Link}
+                  to="/market"
+                  style={{ background: "green" }}
+                >
+                  Super Markets
+                </Button>
+                <Button
+                  component={Link}
+                  to="/nightlife"
+                  style={{ background: "gray" }}
+                >
+                  Night Life
+                </Button>
               </CardActions>
             </Card>
           </Grid>
