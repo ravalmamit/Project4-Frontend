@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     height: "85vh",
     backgroundColor: theme.palette.grey[200],
     paddingTop: theme.spacing(5),
-    paddingLeft: theme.spacing(20),
+    paddingLeft: theme.spacing(15),
     padding: theme.spacing(2),
   },
 }));

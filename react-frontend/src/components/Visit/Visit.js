@@ -93,6 +93,26 @@ export default function Visit() {
 
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
+          <Typography
+            style={{
+              paddingLeft: "50px",
+              paddingBottom: "20px",
+              fontWeight: 600,
+              fontSize: 25,
+            }}
+          >
+            205 RICHDALE AVENUE, UNIT A-20 CAMBRIDGE, MA 02140
+          </Typography>
+          <Typography
+            style={{
+              paddingLeft: "350px",
+              paddingBottom: "20px",
+              fontWeight: 600,
+              fontSize: 25,
+            }}
+          >
+            PRICE: $699,000
+          </Typography>
           <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
@@ -130,7 +150,7 @@ export default function Visit() {
                   <Typography variant="h5">Join our video tour!</Typography>
                   <Typography gutterBottom component="h2">
                     Tour starts at June 14th 3 pm EST. Please use the code
-                    "Demo" for joining the video session.
+                    "Demo" for joining the video tour.
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -157,7 +177,12 @@ export default function Visit() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
+                  <Button
+                    component={Link}
+                    to="/details"
+                    size="small"
+                    color="primary"
+                  >
                     Learn More
                   </Button>
                 </CardActions>
