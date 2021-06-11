@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as restaurant from "./data/restaurants.json";
 import nightlife from "./nightlife.svg";
+import HomeIcon from "@material-ui/icons/Home";
+import { red } from "@material-ui/core/colors";
 import "./MapT.css";
 import Header from "../Header/Header";
 
@@ -32,6 +34,18 @@ function MapN(props) {
             setViewport(viewport);
           }}
         >
+          {/* HOUSE */}
+
+          {
+            <Marker latitude={42.3898} longitude={-71.12898}>
+              <button>
+                <HomeIcon style={{ color: red[500] }} />
+              </button>
+            </Marker>
+          }
+
+          {/* HOUSE */}
+
           {/* /////////// Restaurants  ////////         */}
 
           {restaurant.results.map((rest) => (

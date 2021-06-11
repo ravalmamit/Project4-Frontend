@@ -5,6 +5,8 @@ import * as school from "./data/school.json";
 import * as restaurant from "./data/restaurants.json";
 import * as grocery from "./data/grocery.json";
 import subway from "./subway.svg";
+import HomeIcon from "@material-ui/icons/Home";
+import { red } from "@material-ui/core/colors";
 import schoolImage from "./school.svg";
 import nightlife from "./nightlife.svg";
 import groceryImage from "./grocery.svg";
@@ -39,6 +41,18 @@ function Map(props) {
           setViewport(viewport);
         }}
       >
+        {/* HOUSE */}
+
+        {
+          <Marker latitude={42.3898} longitude={-71.12898}>
+            <button>
+              <HomeIcon style={{ color: red[500] }} />
+            </button>
+          </Marker>
+        }
+
+        {/* HOUSE */}
+
         {/* /////////// Transportation  ////////         */}
         {transport.features.map((station) => (
           <Marker

@@ -50,7 +50,7 @@ export default function ButtonAppBar() {
           <HomeIcon />
           <Typography
             component={Link}
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", paddingLeft: "5px" }}
             to="/home"
             variant="h6"
             color="inherit"
@@ -58,6 +58,9 @@ export default function ButtonAppBar() {
           >
             Virtual Open House
           </Typography>
+          <Button component={Link} to="/home" color="inherit">
+            Home
+          </Button>
           <Button component={Link} to="/visit" color="inherit">
             Visit Us
           </Button>

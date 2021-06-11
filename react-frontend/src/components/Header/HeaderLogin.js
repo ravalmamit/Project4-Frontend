@@ -50,7 +50,7 @@ export default function HeaderLogin() {
           <HomeIcon />
           <Typography
             component={Link}
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", paddingLeft: "5px" }}
             to="/contact"
             variant="h6"
             color="inherit"

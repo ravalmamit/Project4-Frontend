@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as school from "./data/school.json";
 import schoolImage from "./school.svg";
+import HomeIcon from "@material-ui/icons/Home";
+import { red } from "@material-ui/core/colors";
 import "./MapT.css";
 import Header from "../Header/Header";
 
@@ -31,6 +33,18 @@ function MapS(props) {
             setViewport(viewport);
           }}
         >
+          {/* HOUSE */}
+
+          {
+            <Marker latitude={42.3898} longitude={-71.12898}>
+              <button>
+                <HomeIcon style={{ color: red[500] }} />
+              </button>
+            </Marker>
+          }
+
+          {/* HOUSE */}
+
           {/* /////////// Schools  ////////         */}
 
           {school.features.map((school) => (
