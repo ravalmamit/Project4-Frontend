@@ -43,9 +43,11 @@ function Agent({ register }) {
   let history = useHistory();
   //   const [rating, setRating] = useState(0);
   function getDetails() {
-    axios.get(`http://localhost:4000/users/register`).then((response) => {
-      setUserinfo(response.data);
-    });
+    axios
+      .get(process.env.REACT_APP_BACKEND_URL + `/users/register`)
+      .then((response) => {
+        setUserinfo(response.data);
+      });
     console.log(userinfo);
   }
   useEffect(() => {
@@ -73,7 +75,7 @@ function Agent({ register }) {
         rating: rating,
       },
       //   withCredentials: true,
-      url: `http://localhost:4000/users/register/update/${id}`,
+      url: process.env.REACT_APP_BACKEND_URL + `/users/register/update/${id}`,
     })
       .then(() => {
         setUsernotes("");

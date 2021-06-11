@@ -35,7 +35,7 @@ function Login(props) {
         password: loginPassword,
       },
       withCredentials: true,
-      url: "http://localhost:4000/users/login",
+      url: process.env.REACT_APP_BACKEND_URL + "/users/login",
     }).then((res) => {
       setData(res.data);
       console.log(res);
@@ -55,7 +55,7 @@ function Login(props) {
         password: loginPassword,
       },
       withCredentials: true,
-      url: "http://localhost:4000/users/login",
+      url: process.env.REACT_APP_BACKEND_URL + "/users/login",
     }).then((res) => {
       setData(res.data);
       console.log(res);

@@ -46,7 +46,7 @@ function Register(props) {
         address: registerAddress,
       },
       withCredentials: true,
-      url: "http://localhost:4000/users/register",
+      url: process.env.REACT_APP_BACKEND_URL + "/users/register",
     }).then((res) => {
       console.log(res);
       if (res.data === "User Created") history.push("/login");
@@ -57,7 +57,7 @@ function Register(props) {
     Axios({
       method: "GET",
       withCredentials: true,
-      url: "http://localhost:4000/users/register",
+      url: process.env.REACT_APP_BACKEND_URL + "/users/register",
     }).then((res) => {
       setData(res.data);
       console.log(res.data);

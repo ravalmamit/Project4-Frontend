@@ -10,9 +10,11 @@ function Rating({ id, action }) {
   //   console.log(rating);
   function getDetails() {
     // console.log(rating);
-    axios.get(`http://localhost:4000/users/register`).then((response) => {
-      setUserinfo(response.data);
-    });
+    axios
+      .get(process.env.REACT_APP_BACKEND_URL + `/users/register`)
+      .then((response) => {
+        setUserinfo(response.data);
+      });
     console.log(userinfo);
   }
   useEffect(() => {
@@ -28,7 +30,7 @@ function Rating({ id, action }) {
         rating: rating,
       },
       //   withCredentials: true,
-      url: `http://localhost:4000/users/register/update/${id}`,
+      url: process.env.REACT_APP_BACKEND_URL + `/users/register/update/${id}`,
     }).then(() => {
       console.log(rating);
       getDetails();
