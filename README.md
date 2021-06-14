@@ -37,3 +37,24 @@ Agent Dashboard:
 
 - Use chrome browser for accessing the app
 - The app is available on heroku and can be accessed from the following link:https://cryptic-retreat-66977.herokuapp.com/
+
+## User Stories
+
+- As the user, I would like to have a video chat with the real-estate agent who can give a video tour of the home.
+- As the user, I would like to see good number of pictures of the property.
+- As the user, I would like to see the map location and address.
+- As the user, I would like to find schools, transportation, food and grocery and nightlife around the location.
+- As the user for the agent, I would like to see the list of buyers and their details on a separate page.
+- As the user for the agent, I would like to add comments for each visitor/buyer, their offer range, their interest.
+- As the user, I would like to signup and login.
+
+## Wireframes
+![image](https://media.git.generalassemb.ly/user/34354/files/520b8000-c4a7-11eb-86f7-b210f4fb6406)
+
+![image](https://media.git.generalassemb.ly/user/34354/files/55533b80-c4a8-11eb-8c39-7adcebe722e8)
+
+![image](https://media.git.generalassemb.ly/user/34354/files/cabf0c00-c4a8-11eb-8bf6-f85cd58b3011)
+
+![image](https://media.git.generalassemb.ly/user/34354/files/eecf1d00-c4a9-11eb-8293-50eaaa97d7e9)
+
+![image](https://media.git.generalassemb.ly/user/34354/files/28a02380-c4aa-11eb-8456-94a61cd6ef5a)
