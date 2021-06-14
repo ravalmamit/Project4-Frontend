@@ -24,6 +24,7 @@ Agent Dashboard:
 - React
    - React Routers
    - React Slick
+   - React Icons
 - MapBox API
 - Twilio API
 - Material UI
