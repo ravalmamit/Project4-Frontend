@@ -31,7 +31,7 @@ Agent Dashboard:
 - Express
 - MongoDB
 - Mongoose
-- Passport Authentication Middleware`
+- Passport Authentication Middleware
 
 ## Installation Instructions
 
