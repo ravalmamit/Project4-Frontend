@@ -1,5 +1,9 @@
 # GA-SEI-Project-Virtual-Openhouse
 
+## Virtual Open House
+
+This app will focus on how an open house for selling homes can be conducted fully virtually. 
+
 Homepage:
 ![image](https://user-images.githubusercontent.com/78834981/121824712-4294ef80-cc7c-11eb-80c2-29b86f89a637.png)
 
